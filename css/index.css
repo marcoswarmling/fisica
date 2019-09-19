@@ -120,9 +120,10 @@ button:active{
 	border: 0;
 }
 
-button[disabled=disabled], button:disabled {
-    background-color: gray;
-	border-color: darkgray;
+button{
+	text-align: center;
+    background-color: rgb(240, 4, 4);
+	border-color: rgb(0, 0, 0);
 
 }
 
@@ -144,3 +145,24 @@ input[type=text] {
 
 
   }
+
+  .button1 {
+	position: absolute;
+	left:25%;
+	top:45%;
+	height: 80px;
+	width: 300px;
+	border: 5px;
+
+	}
+
+
+	.button2 {
+		position: absolute;
+		left:55%;
+		top:45%;
+		height: 80px;
+		width: 300px;
+		border: 5px;
+		
+		}
